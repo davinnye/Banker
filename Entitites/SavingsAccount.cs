@@ -1,4 +1,4 @@
-﻿namespace Bank.Entities
+﻿namespace Banker.Entities
 {
     internal class SavingsAccount : Account
     {

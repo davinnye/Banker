@@ -1,6 +1,6 @@
 ﻿using Banker.Entities.Exceptions;
 
-namespace Bank.Entities
+namespace Banker.Entities
 {
     abstract class Account
     {
