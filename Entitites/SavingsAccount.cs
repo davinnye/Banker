@@ -6,20 +6,17 @@
 
         public SavingsAccount() { }
 
-        public SavingsAccount(int accountNumber, string holder, double balance, double interestRate) : base(accountNumber, holder, balance)
+        public SavingsAccount(int accountNumber, string holder, double balance, double interestRate, double withdrawlimit) : base(accountNumber, holder, balance, withdrawlimit)
         {
             InterestRate = interestRate;
         }
 
-        public void UpdatedBalance()
-        {
-            Balance += Balance * InterestRate;
-        }
-
+        
         public override void Withdraw(double amount)
         {
             base.Withdraw(amount);
             Balance -= 2.0;
+            return;
         }
         //overrides the Withdraw method, adding an extra fee to the Savings Account withdraw.
     }

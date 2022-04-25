@@ -9,7 +9,7 @@ namespace Banker.Entities
 
         public BusinessAccount() { }
 
-        public BusinessAccount(int accountNumber, string holder, double balance, double loanLimit) : base(accountNumber, holder, balance)
+        public BusinessAccount(int accountNumber, string holder, double balance, double loanLimit, double withdrawlimit) : base(accountNumber, holder, balance, withdrawlimit)
         {
             LoanLimit = loanLimit;
         }

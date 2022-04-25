@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entitites\Account.cs" />
+    <Compile Include="Entitites\BusinessAccount.cs" />
+    <Compile Include="Entitites\Exceptions\DomainException.cs" />
+    <Compile Include="Entitites\SavingsAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
